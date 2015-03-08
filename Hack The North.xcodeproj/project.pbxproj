@@ -18,6 +18,8 @@
 		9E75E3521AAAB14400B9B4C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E75E3511AAAB14400B9B4C5 /* Images.xcassets */; };
 		9E75E3551AAAB14400B9B4C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E75E3531AAAB14400B9B4C5 /* LaunchScreen.xib */; };
 		9E75E3611AAAB14400B9B4C5 /* Hack_The_NorthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75E3601AAAB14400B9B4C5 /* Hack_The_NorthTests.m */; };
+		9EFFB86E1AACD49F007C4EA3 /* HTNMyTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB86C1AACD49F007C4EA3 /* HTNMyTeamViewController.m */; };
+		9EFFB86F1AACD49F007C4EA3 /* HTNMyTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB86D1AACD49F007C4EA3 /* HTNMyTeamViewController.xib */; };
 		C4806D0C29BC9D67C9E2703D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3AAFB9D40E874CF342B599 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,9 @@
 		9E75E35A1AAAB14400B9B4C5 /* Hack The NorthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hack The NorthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E75E35F1AAAB14400B9B4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E75E3601AAAB14400B9B4C5 /* Hack_The_NorthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hack_The_NorthTests.m; sourceTree = "<group>"; };
+		9EFFB86B1AACD49F007C4EA3 /* HTNMyTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTNMyTeamViewController.h; sourceTree = "<group>"; };
+		9EFFB86C1AACD49F007C4EA3 /* HTNMyTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTNMyTeamViewController.m; sourceTree = "<group>"; };
+		9EFFB86D1AACD49F007C4EA3 /* HTNMyTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTNMyTeamViewController.xib; sourceTree = "<group>"; };
 		C41BD550B5AEDA12AB22A7EF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +108,7 @@
 				9E239F5F1AAB7EE100EE676A /* HTNUserTableViewCell.h */,
 				9E239F601AAB7EE100EE676A /* HTNUserTableViewCell.m */,
 				9E239F611AAB7EE100EE676A /* HTNUserTableViewCell.xib */,
+				9EFFB86D1AACD49F007C4EA3 /* HTNMyTeamViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -174,6 +180,8 @@
 			children = (
 				9E75E34B1AAAB14400B9B4C5 /* HTNHackerListViewController.h */,
 				9E75E34C1AAAB14400B9B4C5 /* HTNHackerListViewController.m */,
+				9EFFB86B1AACD49F007C4EA3 /* HTNMyTeamViewController.h */,
+				9EFFB86C1AACD49F007C4EA3 /* HTNMyTeamViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -280,6 +288,7 @@
 			files = (
 				9E75E3551AAAB14400B9B4C5 /* LaunchScreen.xib in Resources */,
 				9E75E3521AAAB14400B9B4C5 /* Images.xcassets in Resources */,
+				9EFFB86F1AACD49F007C4EA3 /* HTNMyTeamViewController.xib in Resources */,
 				9E239F631AAB7EE100EE676A /* HTNUserTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +342,7 @@
 			files = (
 				9E239F621AAB7EE100EE676A /* HTNUserTableViewCell.m in Sources */,
 				9E239F5A1AAB68CE00EE676A /* HTNUser.m in Sources */,
+				9EFFB86E1AACD49F007C4EA3 /* HTNMyTeamViewController.m in Sources */,
 				9E75E34D1AAAB14400B9B4C5 /* HTNHackerListViewController.m in Sources */,
 				9E239F5E1AAB68F400EE676A /* HTNSkill.m in Sources */,
 				9E75E34A1AAAB14400B9B4C5 /* AppDelegate.m in Sources */,
