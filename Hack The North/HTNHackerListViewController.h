@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HTNHackerListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> 
+@class HTNUser;
 
+@protocol HTNHackerListControllerDelegate <NSObject>
+- (void)userDidSelectHacker:(HTNUser *)user;
+@end
 
+@interface HTNHackerListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchControllerDelegate, UISearchResultsUpdating>
+@property (nonatomic, weak) id <HTNHackerListControllerDelegate> delgate;
 @end
 

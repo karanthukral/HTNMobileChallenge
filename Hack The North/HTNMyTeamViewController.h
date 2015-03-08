@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+<<<<<<< HEAD
 #import <MessageUI/MessageUI.h>
 #import "HTNHackerListViewController.h"
 
 @interface HTNMyTeamViewController : UIViewController <HTNHackerListControllerDelegate, UITableViewDelegate, UITableViewDataSource, MFMailComposeViewControllerDelegate>
+=======
+#import "HTNHackerListViewController.h"
+
+@interface HTNMyTeamViewController : UIViewController <HTNHackerListControllerDelegate, UITableViewDelegate, UITableViewDataSource>
+- (IBAction)didTapAddMember:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *addButton;
+>>>>>>> b881733... Added search and add team page
 @end
