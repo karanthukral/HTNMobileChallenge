@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E239F561AAB68AE00EE676A /* HTNDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E239F551AAB68AE00EE676A /* HTNDataProvider.m */; };
+		9E239F5A1AAB68CE00EE676A /* HTNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E239F591AAB68CE00EE676A /* HTNUser.m */; };
+		9E239F5E1AAB68F400EE676A /* HTNSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E239F5D1AAB68F400EE676A /* HTNSkill.m */; };
+		9E239F621AAB7EE100EE676A /* HTNUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E239F601AAB7EE100EE676A /* HTNUserTableViewCell.m */; };
+		9E239F631AAB7EE100EE676A /* HTNUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E239F611AAB7EE100EE676A /* HTNUserTableViewCell.xib */; };
 		9E75E3471AAAB14400B9B4C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75E3461AAAB14400B9B4C5 /* main.m */; };
 		9E75E34A1AAAB14400B9B4C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75E3491AAAB14400B9B4C5 /* AppDelegate.m */; };
-		9E75E34D1AAAB14400B9B4C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75E34C1AAAB14400B9B4C5 /* ViewController.m */; };
-		9E75E3501AAAB14400B9B4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E75E34E1AAAB14400B9B4C5 /* Main.storyboard */; };
+		9E75E34D1AAAB14400B9B4C5 /* HTNHackerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75E34C1AAAB14400B9B4C5 /* HTNHackerListViewController.m */; };
 		9E75E3521AAAB14400B9B4C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E75E3511AAAB14400B9B4C5 /* Images.xcassets */; };
 		9E75E3551AAAB14400B9B4C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E75E3531AAAB14400B9B4C5 /* LaunchScreen.xib */; };
 		9E75E3611AAAB14400B9B4C5 /* Hack_The_NorthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75E3601AAAB14400B9B4C5 /* Hack_The_NorthTests.m */; };
+		C4806D0C29BC9D67C9E2703D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3AAFB9D40E874CF342B599 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C3AAFB9D40E874CF342B599 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A539A6444158A8CCA68E534 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9E239F541AAB68AE00EE676A /* HTNDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTNDataProvider.h; sourceTree = "<group>"; };
+		9E239F551AAB68AE00EE676A /* HTNDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTNDataProvider.m; sourceTree = "<group>"; };
+		9E239F581AAB68CE00EE676A /* HTNUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTNUser.h; sourceTree = "<group>"; };
+		9E239F591AAB68CE00EE676A /* HTNUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTNUser.m; sourceTree = "<group>"; };
+		9E239F5C1AAB68F400EE676A /* HTNSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTNSkill.h; sourceTree = "<group>"; };
+		9E239F5D1AAB68F400EE676A /* HTNSkill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTNSkill.m; sourceTree = "<group>"; };
+		9E239F5F1AAB7EE100EE676A /* HTNUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTNUserTableViewCell.h; sourceTree = "<group>"; };
+		9E239F601AAB7EE100EE676A /* HTNUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTNUserTableViewCell.m; sourceTree = "<group>"; };
+		9E239F611AAB7EE100EE676A /* HTNUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTNUserTableViewCell.xib; sourceTree = "<group>"; };
 		9E75E3411AAAB14400B9B4C5 /* Hack The North.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hack The North.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E75E3451AAAB14400B9B4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E75E3461AAAB14400B9B4C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E75E3481AAAB14400B9B4C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E75E3491AAAB14400B9B4C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9E75E34B1AAAB14400B9B4C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9E75E34C1AAAB14400B9B4C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9E75E34F1AAAB14400B9B4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E75E34B1AAAB14400B9B4C5 /* HTNHackerListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTNHackerListViewController.h; sourceTree = "<group>"; };
+		9E75E34C1AAAB14400B9B4C5 /* HTNHackerListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTNHackerListViewController.m; sourceTree = "<group>"; };
 		9E75E3511AAAB14400B9B4C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9E75E3541AAAB14400B9B4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9E75E35A1AAAB14400B9B4C5 /* Hack The NorthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hack The NorthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E75E35F1AAAB14400B9B4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E75E3601AAAB14400B9B4C5 /* Hack_The_NorthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hack_The_NorthTests.m; sourceTree = "<group>"; };
+		C41BD550B5AEDA12AB22A7EF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4806D0C29BC9D67C9E2703D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +77,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E239F571AAB68B300EE676A /* Data Provider */ = {
+			isa = PBXGroup;
+			children = (
+				9E239F541AAB68AE00EE676A /* HTNDataProvider.h */,
+				9E239F551AAB68AE00EE676A /* HTNDataProvider.m */,
+			);
+			name = "Data Provider";
+			sourceTree = "<group>";
+		};
+		9E239F5B1AAB68D200EE676A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E239F581AAB68CE00EE676A /* HTNUser.h */,
+				9E239F591AAB68CE00EE676A /* HTNUser.m */,
+				9E239F5C1AAB68F400EE676A /* HTNSkill.h */,
+				9E239F5D1AAB68F400EE676A /* HTNSkill.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9E239F641AAB7EE800EE676A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E239F5F1AAB7EE100EE676A /* HTNUserTableViewCell.h */,
+				9E239F601AAB7EE100EE676A /* HTNUserTableViewCell.m */,
+				9E239F611AAB7EE100EE676A /* HTNUserTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		9E75E3381AAAB14400B9B4C5 = {
 			isa = PBXGroup;
 			children = (
 				9E75E3431AAAB14400B9B4C5 /* Hack The North */,
 				9E75E35D1AAAB14400B9B4C5 /* Hack The NorthTests */,
 				9E75E3421AAAB14400B9B4C5 /* Products */,
+				B18385C75FD2BEFBCCCC5013 /* Pods */,
+				E3AD5D7F13A7E6A1D66E17D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +132,13 @@
 			children = (
 				9E75E3481AAAB14400B9B4C5 /* AppDelegate.h */,
 				9E75E3491AAAB14400B9B4C5 /* AppDelegate.m */,
-				9E75E34B1AAAB14400B9B4C5 /* ViewController.h */,
-				9E75E34C1AAAB14400B9B4C5 /* ViewController.m */,
-				9E75E34E1AAAB14400B9B4C5 /* Main.storyboard */,
+				9EFFB8671AACCDA2007C4EA3 /* View Controllers */,
 				9E75E3511AAAB14400B9B4C5 /* Images.xcassets */,
 				9E75E3531AAAB14400B9B4C5 /* LaunchScreen.xib */,
+				9E239F5B1AAB68D200EE676A /* Models */,
+				9E239F571AAB68B300EE676A /* Data Provider */,
 				9E75E3441AAAB14400B9B4C5 /* Supporting Files */,
+				9E239F641AAB7EE800EE676A /* Views */,
 			);
 			path = "Hack The North";
 			sourceTree = "<group>";
@@ -119,6 +169,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9EFFB8671AACCDA2007C4EA3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E75E34B1AAAB14400B9B4C5 /* HTNHackerListViewController.h */,
+				9E75E34C1AAAB14400B9B4C5 /* HTNHackerListViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B18385C75FD2BEFBCCCC5013 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C41BD550B5AEDA12AB22A7EF /* Pods.debug.xcconfig */,
+				8A539A6444158A8CCA68E534 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3AD5D7F13A7E6A1D66E17D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3AAFB9D40E874CF342B599 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E75E3641AAAB14400B9B4C5 /* Build configuration list for PBXNativeTarget "Hack The North" */;
 			buildPhases = (
+				95AFB74313E3B447687B5969 /* Check Pods Manifest.lock */,
 				9E75E33D1AAAB14400B9B4C5 /* Sources */,
 				9E75E33E1AAAB14400B9B4C5 /* Frameworks */,
 				9E75E33F1AAAB14400B9B4C5 /* Resources */,
+				63E056AEAE503A72B80B09E1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +246,7 @@
 				TargetAttributes = {
 					9E75E3401AAAB14400B9B4C5 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = WYS6PCLZAG;
 					};
 					9E75E3591AAAB14400B9B4C5 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,9 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E75E3501AAAB14400B9B4C5 /* Main.storyboard in Resources */,
 				9E75E3551AAAB14400B9B4C5 /* LaunchScreen.xib in Resources */,
 				9E75E3521AAAB14400B9B4C5 /* Images.xcassets in Resources */,
+				9E239F631AAB7EE100EE676A /* HTNUserTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +293,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63E056AEAE503A72B80B09E1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95AFB74313E3B447687B5969 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E75E33D1AAAB14400B9B4C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E75E34D1AAAB14400B9B4C5 /* ViewController.m in Sources */,
+				9E239F621AAB7EE100EE676A /* HTNUserTableViewCell.m in Sources */,
+				9E239F5A1AAB68CE00EE676A /* HTNUser.m in Sources */,
+				9E75E34D1AAAB14400B9B4C5 /* HTNHackerListViewController.m in Sources */,
+				9E239F5E1AAB68F400EE676A /* HTNSkill.m in Sources */,
 				9E75E34A1AAAB14400B9B4C5 /* AppDelegate.m in Sources */,
 				9E75E3471AAAB14400B9B4C5 /* main.m in Sources */,
+				9E239F561AAB68AE00EE676A /* HTNDataProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +360,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9E75E34E1AAAB14400B9B4C5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E75E34F1AAAB14400B9B4C5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9E75E3531AAAB14400B9B4C5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,8 +449,10 @@
 		};
 		9E75E3651AAAB14400B9B4C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41BD550B5AEDA12AB22A7EF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Hack The North/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +461,10 @@
 		};
 		9E75E3661AAAB14400B9B4C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A539A6444158A8CCA68E534 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Hack The North/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +524,7 @@
 				9E75E3661AAAB14400B9B4C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E75E3671AAAB14400B9B4C5 /* Build configuration list for PBXNativeTarget "Hack The NorthTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +533,7 @@
 				9E75E3691AAAB14400B9B4C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
