@@ -10,6 +10,4 @@
 #import "HTNHackerListViewController.h"
 
 @interface HTNMyTeamViewController : UIViewController <HTNHackerListControllerDelegate, UITableViewDelegate, UITableViewDataSource>
-- (IBAction)didTapAddMember:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *addButton;
 @end

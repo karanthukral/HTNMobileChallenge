@@ -21,13 +21,14 @@
 	_listController = [[HTNHackerListViewController alloc] init];
 	_listController.delgate = self;
 	_teamUsers = [NSMutableArray new];
+	[self.navigationItem setRightBarButtonItem:[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(didTapAddMember:)]];
 	[self setUpTableView];
 }
 
 - (void)setUpTableView
 {
-	CGRect tableViewFrame = CGRectMake(0, 64, 320, 411);
-	_tableView = [[UITableView alloc] initWithFrame:tableViewFrame];
+	_tableView = [[UITableView alloc] initWithFrame:self.view.frame];
+	_tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 	[_tableView registerClass:[HTNUserTableViewCell class] forCellReuseIdentifier:NSStringFromClass([HTNUserTableViewCell class])];
 	[_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([HTNUserTableViewCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([HTNUserTableViewCell class])];
 	_tableView.dataSource = self;
@@ -36,7 +37,7 @@
 }
 
 
-- (IBAction)didTapAddMember:(id)sender {
+- (void)didTapAddMember:(id)sender {
 	[self.navigationController pushViewController:_listController animated:YES];
 }
 
@@ -44,7 +45,7 @@
 {
 	[_teamUsers addObject:user];
 	if (_teamUsers.count == 3) {
-		_addButton.hidden = YES;
+		self.navigationItem.rightBarButtonItem = nil;
 	}
 	[_tableView reloadData];
 }

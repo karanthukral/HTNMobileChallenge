@@ -51,6 +51,7 @@
 	_searchController.searchBar.text = @"";
 }
 
+
 - (void)setUpTableView
 {
 	_tableView = [[UITableView alloc] initWithFrame:self.view.frame];
@@ -59,7 +60,7 @@
 	_tableView.dataSource = self;
 	_tableView.delegate = self;
 	if (_delgate == nil) {
-		_tableView.userInteractionEnabled = NO;
+		_tableView.allowsSelection = NO;
 	}
 	[self.view addSubview:_tableView];
 }
@@ -74,7 +75,7 @@
 	_searchResultsTableViewController.tableView.dataSource = self;
 	_searchResultsTableViewController.tableView.delegate = self;
 	if (_delgate == nil) {
-		_searchResultsTableViewController.tableView.userInteractionEnabled = NO;
+		_searchResultsTableViewController.tableView.allowsSelection = NO;
 	}
 }
 
