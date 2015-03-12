@@ -14,16 +14,11 @@
 	HTNHackerListViewController *_listController;
 	UITableView *_tableView;
 	NSMutableArray *_teamUsers;
-<<<<<<< HEAD
 	UIButton *_emailTeam;
-=======
->>>>>>> b881733... Added search and add team page
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-<<<<<<< HEAD
-	
 	_listController = [[HTNHackerListViewController alloc] init];
 	_listController.delgate = self;
 	_teamUsers = [NSMutableArray new];
@@ -33,23 +28,13 @@
 	UIBarButtonItem *emailTeam = [[UIBarButtonItem alloc] initWithTitle:@"Email" style:UIBarButtonItemStylePlain target:self action:@selector(didTapEmailTeamButton)];
 	[self.navigationItem setRightBarButtonItems:@[addTeamMember, emailTeam]];
 	
-=======
-	_listController = [[HTNHackerListViewController alloc] init];
-	_listController.delgate = self;
-	_teamUsers = [NSMutableArray new];
->>>>>>> b881733... Added search and add team page
 	[self setUpTableView];
 }
 
 - (void)setUpTableView
 {
-<<<<<<< HEAD
 	_tableView = [[UITableView alloc] initWithFrame:self.view.frame];
 	_tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-=======
-	CGRect tableViewFrame = CGRectMake(0, 64, 320, 411);
-	_tableView = [[UITableView alloc] initWithFrame:tableViewFrame];
->>>>>>> b881733... Added search and add team page
 	[_tableView registerClass:[HTNUserTableViewCell class] forCellReuseIdentifier:NSStringFromClass([HTNUserTableViewCell class])];
 	[_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([HTNUserTableViewCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([HTNUserTableViewCell class])];
 	_tableView.dataSource = self;

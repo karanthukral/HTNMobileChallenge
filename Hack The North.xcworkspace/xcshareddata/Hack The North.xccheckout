@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>2C3A4CA4-9138-42B6-8073-F9A81623F4D4</string>
+=======
+	<string>78E9F0A6-4CE4-49D0-9EEA-BACC552FFD31</string>
+>>>>>>> 6803e9c... Cleaned up team view
 	<key>IDESourceControlProjectName</key>
 	<string>Hack The North</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
